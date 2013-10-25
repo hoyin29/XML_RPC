@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/xmlrpc-c/code/!svn/ver/2489/stable/tools/xml-rpc-api2cpp
+END
+xml-rpc-api2cpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/xml-rpc-api2cpp.cpp
+END
+DataType.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/DataType.hpp
+END
+XmlRpcClass.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/XmlRpcClass.hpp
+END
+XmlRpcFunction.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/XmlRpcFunction.hpp
+END
+SystemProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/xml-rpc-api2cpp/SystemProxy.cpp
+END
+DataType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/DataType.cpp
+END
+SystemProxy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/xml-rpc-api2cpp/SystemProxy.hpp
+END
+XmlRpcClass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/XmlRpcClass.cpp
+END
+XmlRpcFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/xmlrpc-c/code/!svn/ver/1598/stable/tools/xml-rpc-api2cpp/XmlRpcFunction.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/xmlrpc-c/code/!svn/ver/2489/stable/tools/xml-rpc-api2cpp/Makefile
+END
+xml-rpc-api2cpp.1
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/xml-rpc-api2cpp/xml-rpc-api2cpp.1
+END

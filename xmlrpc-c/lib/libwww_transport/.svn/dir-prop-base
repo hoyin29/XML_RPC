@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 40
+depend.mk
+version.h
+*.osh
+srcdir
+blddir
+
+END

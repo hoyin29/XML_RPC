@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test
+END
+req_no_params.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/req_no_params.xml
+END
+method_registry.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/method_registry.c
+END
+testtool.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/testtool.c
+END
+method_registry.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/method_registry.h
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/client.c
+END
+abyss.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/abyss.c
+END
+testtool.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/testtool.h
+END
+cgitest1.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cgitest1.c
+END
+client.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/client.h
+END
+abyss.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/abyss.h
+END
+serialize.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/serialize.c
+END
+value_datetime.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/value_datetime.c
+END
+http-req-simple.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/http-req-simple.txt
+END
+xml_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/xml_data.c
+END
+parse_xml.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/parse_xml.c
+END
+serialize.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/serialize.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/Makefile
+END
+value_datetime.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/value_datetime.h
+END
+xml_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/xml_data.h
+END
+parse_xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/parse_xml.h
+END
+cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cgi.c
+END
+server_abyss.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/server_abyss.c
+END
+cgi.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cgi.h
+END
+value.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/value.c
+END
+server_abyss.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/server_abyss.h
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/test.c
+END
+value.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/value.h
+END
+eftest_wrapper.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/eftest_wrapper.sh
+END
+serialize_value.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/serialize_value.c
+END
+serialize_value.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/serialize_value.h
+END
+client_dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/client_dummy.c
+END

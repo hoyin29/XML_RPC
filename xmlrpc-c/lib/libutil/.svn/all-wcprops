@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/xmlrpc-c/code/!svn/ver/2540/stable/lib/libutil
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/time.c
+END
+lock_pthread.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/lock_pthread.c
+END
+lock_windows.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/xmlrpc-c/code/!svn/ver/2540/stable/lib/libutil/lock_windows.c
+END
+lock_none.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/lock_none.c
+END
+sleep.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/sleep.c
+END
+make_printable.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/xmlrpc-c/code/!svn/ver/2289/stable/lib/libutil/make_printable.c
+END
+string_number.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/libutil/string_number.c
+END
+select.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/select.c
+END
+base64.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/base64.c
+END
+utf8.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/utf8.c
+END
+asprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/libutil/asprintf.c
+END
+memblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/libutil/memblock.c
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/libutil/error.c
+END
+lock_platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/lock_platform.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/libutil/Makefile
+END

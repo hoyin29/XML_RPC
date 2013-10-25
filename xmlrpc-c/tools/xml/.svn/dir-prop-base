@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 41
+blddir
+depend.mk
+srcdir
+xmlrpc_parsecall
+
+END

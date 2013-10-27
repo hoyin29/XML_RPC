@@ -1,0 +1,30 @@
+#
+#######################################################
+# From 'shell_config'
+#######################################################
+ENABLE_ABYSS_THREADS="yes"
+THREAD_LIBS="-lpthread"
+ENABLE_LIBXML2_BACKEND="no"
+MUST_BUILD_WININET_CLIENT="no"
+MUST_BUILD_CURL_CLIENT="no"
+MUST_BUILD_LIBWWW_CLIENT="no"
+NEED_RPATH="no"
+NEED_WL_RPATH="no"
+LIBXMLRPCPP_NAME="xmlrpc++"
+LSOCKET=""
+WININET_LDADD=""
+WININET_LIBDIR=""
+CURL_LDADD=""
+CURL_LIBDIR=""
+LIBWWW_LDADD=""
+LIBWWW_LIBDIR=""
+XMLRPC_MAJOR_RELEASE="1"
+XMLRPC_MINOR_RELEASE="36"
+XMLRPC_POINT_RELEASE="0"
+FEATURE_LIST="c++ abyss-server "
+PREFIX="/home/jay/Desktop/xml_rpc/installation"
+HEADERINST_DIR="/home/jay/Desktop/xml_rpc/installation/include"
+LIBINST_DIR="/home/jay/Desktop/xml_rpc/installation/lib"
+BLDDIR="/home/jay/Desktop/xml_rpc/xmlrpc-c"
+ABS_SRCDIR="/home/jay/Desktop/xml_rpc/xmlrpc-c"
+#######################################################

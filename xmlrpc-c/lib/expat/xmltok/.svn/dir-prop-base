@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 56
+depend.mk
+*.osh
+*.so
+*.so.*
+*.a
+nametab.h
+srcdir
+blddir
+
+END

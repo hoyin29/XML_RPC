@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/p/xmlrpc-c/code/!svn/ver/2540/stable/lib/util
+END
+getoptx.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/1031/stable/lib/util/getoptx.h
+END
+pthreadx_win32.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/util/pthreadx_win32.c
+END
+string_parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/util/string_parser.c
+END
+stripcaseeq.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/util/stripcaseeq.c
+END
+cmdline_parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/util/cmdline_parser.c
+END
+casprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/xmlrpc-c/code/!svn/ver/2115/stable/lib/util/casprintf.c
+END
+cmdline_parser_cpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/xmlrpc-c/code/!svn/ver/1598/stable/lib/util/cmdline_parser_cpp.cpp
+END
+getoptx.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/1598/stable/lib/util/getoptx.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/xmlrpc-c/code/!svn/ver/2489/stable/lib/util/Makefile
+END

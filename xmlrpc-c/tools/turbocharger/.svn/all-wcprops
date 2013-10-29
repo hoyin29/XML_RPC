@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/tools/turbocharger
+END
+mod_gzip.c.diff
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/turbocharger/mod_gzip.c.diff
+END
+mod_gzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/xmlrpc-c/code/!svn/ver/2489/stable/tools/turbocharger/mod_gzip.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/turbocharger/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/1031/stable/tools/turbocharger/README
+END

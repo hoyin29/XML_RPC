@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 329
+gen_sample_add_xml
+synch_client
+xmlrpc_asynch_client
+auth_client
+xmlrpc_inetd_server
+xmlrpc_loop_server
+xmlrpc_sample_add_client
+xmlrpc_sample_add_server
+xmlrpc_server_validatee
+xmlrpc_socket_server
+*.cgi
+config.h
+xmlrpc_amconfig.h
+interrupted_client
+interrupted_server
+json
+compound_value_client
+compound_value_server
+parse_xml
+
+END

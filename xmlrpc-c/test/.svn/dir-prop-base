@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 38
+test
+cgitest1
+depend.mk
+blddir
+srcdir
+
+END

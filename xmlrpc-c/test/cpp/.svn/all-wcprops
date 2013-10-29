@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp
+END
+tools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/tools.cpp
+END
+xml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/xml.cpp
+END
+server_pstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/server_pstream.cpp
+END
+tools.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/tools.hpp
+END
+xml.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/xml.hpp
+END
+server_pstream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/server_pstream.hpp
+END
+server_abyss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/server_abyss.cpp
+END
+registry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/registry.cpp
+END
+value.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/value.cpp
+END
+server_abyss.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/server_abyss.hpp
+END
+registry.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/registry.hpp
+END
+testclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/testclient.cpp
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/test.cpp
+END
+value.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/value.hpp
+END
+testclient.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/testclient.hpp
+END
+base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/base64.cpp
+END
+testclient_dummy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/testclient_dummy.cpp
+END
+base64.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/base64.hpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/xmlrpc-c/code/!svn/ver/2489/stable/test/cpp/Makefile
+END

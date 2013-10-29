@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 111
+depend.mk
+version.h
+xmlrpc_curl_transport.osh
+lock_pthread.osh
+curltransaction.osh
+curlmulti.osh
+srcdir
+blddir
+
+END

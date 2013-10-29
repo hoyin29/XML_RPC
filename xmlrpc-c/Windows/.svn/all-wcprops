@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/p/xmlrpc-c/code/!svn/ver/2540/stable/Windows
+END
+CleanAll.bat
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/CleanAll.bat
+END
+socketpair.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2115/stable/Windows/socketpair.cpp
+END
+delsln.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/delsln.bat
+END
+transport_config_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/transport_config_win32.h
+END
+mkvers1.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/mkvers1.bat
+END
+diffcfg.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/diffcfg.bat
+END
+ReadMeWin32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/xmlrpc-c/code/!svn/ver/2115/stable/Windows/ReadMeWin32.txt
+END
+xmlrpc_win32_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/xmlrpc-c/code/!svn/ver/2489/stable/Windows/xmlrpc_win32_config.h
+END
+UsingCURLinWin32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/xmlrpc-c/code/!svn/ver/2489/stable/Windows/UsingCURLinWin32.txt
+END
+ConfigureWin32.bat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/ConfigureWin32.bat
+END
+CleanWin32.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/CleanWin32.bat
+END
+mkvers.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/1794/stable/Windows/mkvers.bat
+END
+UsingProxyDSP.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/UsingProxyDSP.txt
+END
+win32_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/xmlrpc-c/code/!svn/ver/2489/stable/Windows/win32_config.h
+END
+updcfg.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/xmlrpc-c/code/!svn/ver/1598/stable/Windows/updcfg.bat
+END

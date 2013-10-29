@@ -98,6 +98,18 @@ xmlrpc_client_transport_call(
 **  An asynchronous XML-RPC client.
 */
 
+/*========================================================================
+for multi-rpc asynch global client
+==========================================================================*/
+XMLRPC_CLIENT_EXPORTED
+void
+multirpc_global_client_asynch(multi_server_info_t *        multiServerInfo,
+			      const char *           const methodName, 
+			      xmlrpc_response_handler responseHandler, 
+			      int                          requestsRequired);
+
+
+
 XMLRPC_CLIENT_EXPORTED
 void 
 xmlrpc_client_call_asynch(const char * const server_url,

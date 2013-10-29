@@ -37,7 +37,7 @@ CURL_LIBDIR = /usr/lib
 LIBWWW_LDADD = 
 LIBWWW_LIBDIR = 
 FEATURE_LIST = c++ abyss-server curl-client 
-ABS_SRCDIR = /Users/Anne/Documents/playground_xmlrpc/xmlrpc-c
+ABS_SRCDIR = /Users/Anne/Documents/project3_version1/xmlrpc-c
 PREFIX = /usr/local
 
 

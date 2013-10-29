@@ -11,6 +11,17 @@
 #define NAME "Multi Xmlrpc-c Asynchronous Test Client"
 #define VERSION "1.0"
 
+static void 
+die_if_fault_occurred(xmlrpc_env * const envP) 
+{
+  if (envP->fault_occurred) 
+    {
+      fprintf(stderr, "Something failed. %s (XML-RPC fault code %d)\n",
+	      envP->fault_string, envP->fault_code);
+      exit(1);
+    }
+}
+
 
 
 static void 

@@ -44,6 +44,7 @@
   #define SLEEP(seconds) sleep(seconds);
 #endif
 
+#define DEBUG
 
 static xmlrpc_value *
 sample_add(xmlrpc_env *   const envP,
@@ -51,12 +52,21 @@ sample_add(xmlrpc_env *   const envP,
            void *         const serverInfo,
            void *         const channelInfo) {
 
+#ifdef DEBUG
+  printf("start running server method.......");
+#endif
+
     xmlrpc_int32 x, y, z;
 
     /* Parse our argument array. */
     xmlrpc_decompose_value(envP, paramArrayP, "(ii)", &x, &y);
-    if (envP->fault_occurred)
+    if (envP->fault_occurred) {
+
+#ifdef DEBUG
+      printf("fail in xmlrpc_decompose_value() in server method\n");
+#endif
         return NULL;
+    }
 
     /* Add our two numbers. */
     z = x + y;
@@ -64,8 +74,17 @@ sample_add(xmlrpc_env *   const envP,
     /* Sometimes, make it look hard (so client can see what it's like
        to do an RPC that takes a while).
     */
+
+    /*
     if (y == 1)
         SLEEP(3);
+    */
+
+    // sleep(3);
+
+#ifdef DEBUG
+    printf("finishing sum of %d and %d, the result is %d\n", x, y, z);
+#endif
 
     /* Return our result. */
     return xmlrpc_build_value(envP, "i", z);

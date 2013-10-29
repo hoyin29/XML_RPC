@@ -29,8 +29,8 @@ FEATURE_LIST="c++ abyss-server curl-client "
 PREFIX="/usr/local"
 HEADERINST_DIR="/usr/local/include"
 LIBINST_DIR="/usr/local/lib"
-BLDDIR="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c"
-ABS_SRCDIR="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c"
+BLDDIR="/Users/Anne/Documents/project3_version1/xmlrpc-c"
+ABS_SRCDIR="/Users/Anne/Documents/project3_version1/xmlrpc-c"
 #######################################################
 usage="Usage: xmlrpc-c-config <feature> ... <option> ...
 

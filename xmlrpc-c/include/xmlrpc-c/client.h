@@ -61,6 +61,8 @@ extern struct xmlrpc_client_transport_ops xmlrpc_wininet_transport_ops;
 XMLRPC_CLIENT_EXPORTED
 extern struct xmlrpc_client_transport_ops xmlrpc_curl_transport_ops;
 
+
+
 enum xmlrpc_sslversion {
     XMLRPC_SSLVERSION_DEFAULT,
     XMLRPC_SSLVERSION_TLSv1,
@@ -196,6 +198,44 @@ typedef void xmlrpc_response_handler(const char *   serverUrl,
                                      void *         userHandle,
                                      xmlrpc_env *   fault,
                                      xmlrpc_value * result);
+
+
+
+  /*===========================================================================                                                                  
+   * struct for storing the multiple server info for multi rpc                                                                                   
+   ============================================================================*/
+
+  typedef struct multi_server_info {
+
+    int numberOfServer;
+    char ** serverUrlArray;
+
+  }multi_server_info_t;
+
+
+
+  /*=========================================================================                                                                   \
+                                                                                                                                               
+   data structure for thread using for multi-rpc asynch call                                                                                  \
+   each thread will call xmlrpc_client_start_rpcf()                                                                                            
+   so the struct should contain the following param                                                                                            
+   =========================================================================*/
+  typedef struct asynch_thread_param {
+
+    xmlrpc_env * envP;
+    xmlrpc_client * clientP;
+
+    multi_server_info_t * multiServerInfo;
+
+    xmlrpc_response_handler * responseHandler;
+
+    pthread_t tid; // thread ID                                                                                                                  
+    int requestID; // indicating this thread is for which server                                                                                 
+
+    char * methodName;
+
+  }asynch_thread_param_t;
+
 
 
 /*=========================================================================

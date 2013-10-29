@@ -104,6 +104,8 @@
 #endif
 #endif
 
+#define DEBUG
+
 
 typedef struct rpc rpc;
 
@@ -1209,6 +1211,15 @@ performCurlTransaction(xmlrpc_env *      const envP,
 static void
 startRpc(xmlrpc_env * const envP,
          rpc *        const rpcP) {
+  /*
+#ifdef DEBUG
+  printf("%s calling startRPC()\n", rpcP->callInfoP->completionArgs.serverUrl);
+#endif
+  */
+
+#ifdef DEBUG
+  printf("calling startRPC()\n");
+#endif
 
     curlMulti_addHandle(envP,
                         rpcP->transportP->asyncCurlMultiP,
@@ -1256,7 +1267,11 @@ createRpc(xmlrpc_env *                     const envP,
         rpcP->complete     = complete;
         rpcP->progress     = progress;
         rpcP->responseXmlP = responseXmlP;
-
+	/*
+#ifdef DEBUG
+	printf("%s calling creatRPC()\n", callInfoP->completionArgs.serverUrl);
+#endif
+	*/
         curlTransaction_create(envP,
                                curlSessionP,
                                serverP,
@@ -1282,7 +1297,11 @@ createRpc(xmlrpc_env *                     const envP,
 
 static void 
 destroyRpc(rpc * const rpcP) {
-
+  /*
+#ifdef DEBUG
+  printf("%s calling destroyRPC()\n", rpcP->callInfoP->completionArgs.serverUrl);
+#endif
+  */
     XMLRPC_ASSERT_PTR_OK(rpcP);
 
     curlTransaction_destroy(rpcP->curlTransactionP);
@@ -1297,7 +1316,11 @@ performRpc(xmlrpc_env * const envP,
            rpc *        const rpcP,
            curlMulti *  const curlMultiP,
            int *        const interruptP) {
-
+  /*
+#ifdef DEBUG
+  printf("%s calling performRPC()\n", rpcP->callInfoP->completionArgs.serverUrl);
+#endif
+  */
     performCurlTransaction(envP, rpcP->curlTransactionP, curlMultiP,
                            interruptP);
 }
@@ -1428,9 +1451,19 @@ sendRequest(xmlrpc_env *                     const envP,
             xmlrpc_faultf(envP, "Could not create Curl session.  "
                           "curl_easy_init() failed.");
         else {
-            createRpc(envP, clientTransportP, curlSessionP, serverP,
-                      callXmlP, responseXmlP, complete, progress, callInfoP,
-                      &rpcP);
+	  /*
+#ifdef DEBUG
+	  printf("%s calling send_request()\n", callInfoP->completionArgs.serverUrl);
+#endif
+	  */        
+
+#ifdef DEBUG                                                                                                                                       
+          printf("%s calling send_request()\n", serverP->serverUrl);                                                                  
+#endif    
+
+	  createRpc(envP, clientTransportP, curlSessionP, serverP,
+		    callXmlP, responseXmlP, complete, progress, callInfoP,
+		    &rpcP);
             
             if (!envP->fault_occurred) {
                 startRpc(envP, rpcP);

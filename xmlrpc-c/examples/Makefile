@@ -29,7 +29,8 @@ CLIENTPROGS = \
   synch_client \
   xmlrpc_sample_add_client \
   xmlrpc_asynch_client \
-  multi_rpc_client \
+  multi_rpc_client_asynch_version1 \
+  multi_rpc_client_asynch_version2 \
 
 ifeq ($(MUST_BUILD_CURL_CLIENT),yes)
   ifneq ($(MSVCRT),yes)
@@ -47,6 +48,7 @@ SERVERPROGS_ABYSS = \
   xmlrpc_loop_server \
   xmlrpc_sample_add_server \
   xmlrpc_server_validatee \
+  xmlrpc_hello_server \
 
 ifneq ($(MSVCRT),yes)
   SERVERPROGS_ABYSS += interrupted_server

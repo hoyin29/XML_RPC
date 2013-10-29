@@ -448,7 +448,7 @@ Copyright (C) 2010 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c'
+ac_pwd='/Users/Anne/Documents/project3_version1/xmlrpc-c'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 test -n "$AWK" || AWK=awk
@@ -627,7 +627,7 @@ S["LTLIBOBJS"]=""
 S["LIBOBJS"]=""
 S["RANLIB"]="ranlib"
 S["AR"]="ar"
-S["BUILDDIR"]="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c"
+S["BUILDDIR"]="/Users/Anne/Documents/project3_version1/xmlrpc-c"
 S["CPP_WARN_FLAGS"]=""
 S["CC_WARN_FLAGS"]=""
 S["CXX_COMPILER_GNU"]="yes"
@@ -705,10 +705,10 @@ S["build_cpu"]="x86_64"
 S["build"]="x86_64-apple-darwin12.5.0"
 S["SET_MAKE"]=""
 S["MAKEINFO"]="makeinfo"
-S["AUTOHEADER"]="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c/missing autoheader"
-S["AUTOMAKE"]="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c/missing automake"
-S["AUTOCONF"]="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c/missing autoconf"
-S["ACLOCAL"]="/Users/Anne/Documents/playground_xmlrpc/xmlrpc-c/missing aclocal"
+S["AUTOHEADER"]="/Users/Anne/Documents/project3_version1/xmlrpc-c/missing autoheader"
+S["AUTOMAKE"]="/Users/Anne/Documents/project3_version1/xmlrpc-c/missing automake"
+S["AUTOCONF"]="/Users/Anne/Documents/project3_version1/xmlrpc-c/missing autoconf"
+S["ACLOCAL"]="/Users/Anne/Documents/project3_version1/xmlrpc-c/missing aclocal"
 S["VERSION"]="x.xx"
 S["PACKAGE"]="xmlrpc-c"
 S["INSTALL_DATA"]="${INSTALL} -m 644"

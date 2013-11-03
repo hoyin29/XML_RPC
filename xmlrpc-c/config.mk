@@ -25,19 +25,19 @@ ENABLE_CGI_SERVER      = yes
 ENABLE_LIBXML2_BACKEND = no
 
 MUST_BUILD_WININET_CLIENT = no
-MUST_BUILD_CURL_CLIENT    = yes
+MUST_BUILD_CURL_CLIENT    = no
 MUST_BUILD_LIBWWW_CLIENT  = no
-BUILD_TOOLS  = yes
-BUILD_XMLRPC_PSTREAM  = yes
+BUILD_TOOLS  = no
+BUILD_XMLRPC_PSTREAM  = no
 LSOCKET = 
 WININET_LDADD = 
 WININET_LIBDIR = 
-CURL_LDADD = -lcurl
-CURL_LIBDIR = /usr/lib
+CURL_LDADD = 
+CURL_LIBDIR = 
 LIBWWW_LDADD = 
 LIBWWW_LIBDIR = 
-FEATURE_LIST = c++ abyss-server curl-client 
-ABS_SRCDIR = /Users/Anne/Documents/project3_version1/xmlrpc-c
+FEATURE_LIST = c++ abyss-server 
+ABS_SRCDIR = /home/jay/Desktop/git/xml_rpc/xmlrpc-c
 PREFIX = /usr/local
 
 
@@ -45,7 +45,7 @@ HAVE_WCHAR_H_DEFINE = 1
 
 # Stuff 'configure' figured out about our build platform:
 
-SHELL = /bin/sh
+SHELL = /bin/bash
 CC = gcc
 CXX = g++
 CCLD = $(CC)
@@ -63,7 +63,7 @@ CXX_COMPILER_GNU = yes
 
 # HOST_OS names the operating system on which Xmlrpc-c is to run.
 # E.g. "linux-gnu".
-HOST_OS = darwin12.5.0
+HOST_OS = linux-gnu
 
 ###############################################################################
 

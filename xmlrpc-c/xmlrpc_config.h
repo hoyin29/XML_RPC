@@ -85,7 +85,7 @@
 #endif
 
 #define HAVE_WCHAR_H 1
-#define HAVE_SYS_FILIO_H 1
+#define HAVE_SYS_FILIO_H 0
 #define HAVE_SYS_IOCTL_H 1
 #define HAVE_SYS_SELECT_H 1
 

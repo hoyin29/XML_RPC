@@ -1,1 +1,1 @@
-SRCDIR=/Users/Anne/Documents/project3_version1/xmlrpc-c
+SRCDIR=/home/jay/Desktop/git/xml_rpc/xmlrpc-c

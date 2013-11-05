@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#echo "Enter the absolute directory path of the xmlrpc_hello_server.o"
-#read path
-path="/home/jay/Desktop/xml_rpc/backup/xmlrpc-c/examples"
-program="xmlrpc_sample_add_server"
+echo "Enter the absolute directory path of the xmlrpc_hello_server.o"
+read path
+program="xmlrpc_hello_server"
 
 function quit
 {

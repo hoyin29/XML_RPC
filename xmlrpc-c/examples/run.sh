@@ -27,7 +27,7 @@ do
 	case $choice in 
 		XTERM ) echo "Will be using XTERM to create multiple servers"
 			cmd_head="xterm -e";
-			cmd_tail="&"
+			cmd_tail=""
 			break
 			;;
 		GNOME ) echo "Will be using GNOME to create multiple servers"
@@ -51,7 +51,7 @@ port_num=8080
 for i in $(seq 1 $num_server)
 do
 	echo "Running server:#$i on port:$port_num"
-	$cmd_head $path/$program $port_num >/dev/null 2>&1 $cmd_tail 
+	$cmd_head $path/$program $port_num >/dev/null 2>&1 &
 	let port_num=port_num+1
 done
 

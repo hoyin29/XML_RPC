@@ -7,15 +7,20 @@ program="xmlrpc_hello_server"
 function quit
 {
 	echo "Closing all servers and performing cleanup before the program terminate..."
-	pid_array=($(pidof $program))
-	#echo "length: "${#pid_array[@]}
-	let length=${#pid_array[@]}-1 
-	#echo $length
-	for i in $(seq 0 $length)
-	do
-		echo ${pid_array[$i]}
-		kill -SIGKILL ${pid_array[$i]}
-	done
+		#echo "reading $quit_key"
+	if [[ $choice = "XTERM" ]]; then
+		killall xterm
+	else 
+		pid_array=($(pidof $program))
+		#echo "length: "${#pid_array[@]}
+		let length=${#pid_array[@]}-1 
+		#echo $length
+		for i in $(seq 0 $length)
+		do
+			echo ${pid_array[$i]}
+			kill -SIGKILL ${pid_array[$i]}
+		done
+	fi
 	exit
 }
 
@@ -45,7 +50,7 @@ echo "Enter the number of servers to run:"
 read num_server
 echo "Running $num_server servers..."
 
-port_num=7070
+port_num=8080
 for i in $(seq 1 $num_server)
 do
 	echo "Running server:#$i on port:$port_num"

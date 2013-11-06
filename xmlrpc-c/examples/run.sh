@@ -14,7 +14,7 @@ function quit
 		let length=${#pid_array[@]}-1 
 		for i in $(seq 0 $length)
 		do
-			echo ${pid_array[$i]}
+			#echo ${pid_array[$i]}
 			kill -SIGKILL ${pid_array[$i]}
 		done
 	fi
